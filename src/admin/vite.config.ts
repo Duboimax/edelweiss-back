@@ -8,14 +8,7 @@ export default (config: UserConfig) => {
       },
     },
     server: {
-      host: true,
-      hmr: {
-        clientPort: 443,
-      },
       allowedHosts: true
-    },
-    define: {
-      global: 'globalThis',
     },
   });
 };
