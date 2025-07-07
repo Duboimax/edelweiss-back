@@ -12,6 +12,7 @@ export default (config: UserConfig) => {
       hmr: {
         clientPort: 443,
       },
+      allowedHosts: true
     },
     define: {
       global: 'globalThis',
